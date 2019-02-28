@@ -7,8 +7,8 @@
 └──────────────────────────────────────────────────────*/
 
 class CfgPatches {
-	class ExtendedChat {
-        name="ExtendedChat";
+	class ColorPicker {
+        name="ColorPicker";
         author="Connor";
         url="https://steamcommunity.com/id/_connor";
 
