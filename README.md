@@ -8,6 +8,4 @@ RGBA1, RGBA256 and Hex color picker for Arma 3
 - [Discord](https://discord.gg/DMkxetD)
 
 # License
-This work is licensed under CUP-License (CUP-L), Version 1.0  
-http://cup-arma3.org/license  
 https://github.com/ConnorAU/A3ColorPicker/blob/master/LICENSE
