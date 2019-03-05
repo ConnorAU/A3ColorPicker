@@ -7,7 +7,7 @@
 └──────────────────────────────────────────────────────*/
 
 class CfgPatches {
-	class ColorPicker {
+	class CAU_colorPicker {
         name="ColorPicker";
         author="Connor";
         url="https://steamcommunity.com/id/_connor";
@@ -20,9 +20,8 @@ class CfgPatches {
 };
 
 class CfgFunctions {
-	class CAU {
-		tag="CAU_colorPicker"; 
-		class colorPicker {
+	class CAU_colorPicker {
+		class script {
 			class system {
 				file="\cau\colorpicker\system.sqf"
 			};
