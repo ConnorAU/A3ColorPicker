@@ -23,7 +23,7 @@ class CfgFunctions {
 	class CAU_colorPicker {
 		class script {
 			class system {
-				file="\cau\colorpicker\system.sqf"
+				file="\cau\colorpicker\system.sqf";
 			};
 		};
 	};
