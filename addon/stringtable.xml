@@ -4,116 +4,32 @@
 		<Key ID="STR_CAU_ColorPicker_Title">
 			<Original>Color Picker</Original>
 			<English>Color Picker</English>
-			<!--
-			<Chinese></Chinese>
-			<French></French>
-			<Spanish></Spanish>
-			<Italian></Italian>
-			<Polish></Polish>
-			<Russian></Russian>
-			<German></German>
-			<Czech></Czech>
-			<Portuguese></Portuguese>
-			<Korean></Korean>
-			<Chinesesimp></Chinesesimp>
-			<Japanese></Japanese>
-			<Turkish></Turkish>
-			-->
+			<English>Farbwähler</English>
 		</Key>
 		<Key ID="STR_CAU_ColorPicker_Mode_RGBA1">
 			<Original>RGBA 0-1 (Arma Format)</Original>
 			<English>RGBA 0-1 (Arma Format)</English>
-			<!--
-			<Chinese></Chinese>
-			<French></French>
-			<Spanish></Spanish>
-			<Italian></Italian>
-			<Polish></Polish>
-			<Russian></Russian>
-			<German></German>
-			<Czech></Czech>
-			<Portuguese></Portuguese>
-			<Korean></Korean>
-			<Chinesesimp></Chinesesimp>
-			<Japanese></Japanese>
-			<Turkish></Turkish>
-			-->
+			<German>RGBA 0-1 (Arma Format)</German>
 		</Key>
 		<Key ID="STR_CAU_ColorPicker_Mode_RGBA255">
 			<Original>RGBA 0-255</Original>
 			<English>RGBA 0-255</English>
-			<!--
-			<Chinese></Chinese>
-			<French></French>
-			<Spanish></Spanish>
-			<Italian></Italian>
-			<Polish></Polish>
-			<Russian></Russian>
-			<German></German>
-			<Czech></Czech>
-			<Portuguese></Portuguese>
-			<Korean></Korean>
-			<Chinesesimp></Chinesesimp>
-			<Japanese></Japanese>
-			<Turkish></Turkish>
-			-->
+			<German>RGBA 0-255</German>
 		</Key>
 		<Key ID="STR_CAU_ColorPicker_Mode_RRGGBB">
 			<Original>#RRGGBB</Original>
 			<English>#RRGGBB</English>
-			<!--
-			<Chinese></Chinese>
-			<French></French>
-			<Spanish></Spanish>
-			<Italian></Italian>
-			<Polish></Polish>
-			<Russian></Russian>
-			<German></German>
-			<Czech></Czech>
-			<Portuguese></Portuguese>
-			<Korean></Korean>
-			<Chinesesimp></Chinesesimp>
-			<Japanese></Japanese>
-			<Turkish></Turkish>
-			-->
+			<German>#RRGGBB</German>
 		</Key>
 		<Key ID="STR_CAU_ColorPicker_Mode_AARRGGBB">
 			<Original>#AARRGGBB</Original>
 			<English>#AARRGGBB</English>
-			<!--
-			<Chinese></Chinese>
-			<French></French>
-			<Spanish></Spanish>
-			<Italian></Italian>
-			<Polish></Polish>
-			<Russian></Russian>
-			<German></German>
-			<Czech></Czech>
-			<Portuguese></Portuguese>
-			<Korean></Korean>
-			<Chinesesimp></Chinesesimp>
-			<Japanese></Japanese>
-			<Turkish></Turkish>
-			-->
+			<German>#AARRGGBB</German>
 		</Key>
 		<Key ID="STR_CAU_ColorPicker_Mode_HEX">
 			<Original>Hex #RRGGBBAA</Original>
 			<English>Hex #RRGGBBAA</English>
-			<!--
-			<Chinese></Chinese>
-			<French></French>
-			<Spanish></Spanish>
-			<Italian></Italian>
-			<Polish></Polish>
-			<Russian></Russian>
-			<German></German>
-			<Czech></Czech>
-			<Portuguese></Portuguese>
-			<Korean></Korean>
-			<Chinesesimp></Chinesesimp>
-			<Japanese></Japanese>
-			<Turkish></Turkish>
-			-->
+			<German>Hex #RRGGBBAA</German>
 		</Key>
 	</Package>
 </Project>
