@@ -4,7 +4,7 @@
 		<Key ID="STR_CAU_ColorPicker_Title">
 			<Original>Color Picker</Original>
 			<English>Color Picker</English>
-			<English>Farbwähler</English>
+			<German>Farbwähler</German>
 		</Key>
 		<Key ID="STR_CAU_ColorPicker_Mode_RGBA1">
 			<Original>RGBA 0-1 (Arma Format)</Original>
