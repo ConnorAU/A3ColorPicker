@@ -1,5 +1,8 @@
 # A3ColorPicker
-RGBA1, RGBA256 and Hex color picker for Arma 3
+RGBA1, RGBA256 and HTML color picker for Arma 3
+
+# Dependency 
+- [UserInputMenus](https://github.com/ConnorAU/A3UserInputMenus)
 
 # Links
 - [Video demo](https://youtu.be/n5GnhDNEJUY)
