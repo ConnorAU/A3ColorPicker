@@ -9,11 +9,11 @@
 class CfgPatches {
 	class CAU_colorPicker {
         name="ColorPicker";
-        author="Connor";
+        author="ConnorAU";
         url="https://steamcommunity.com/id/_connor";
 
 		requiredVersion=0.01;
-		requiredAddons[]={"A3_3DEN","A3_Ui_F"};
+		requiredAddons[]={"A3_3DEN","A3_Ui_F","CAU_UserInputMenus"};
 		units[]={};
 		weapons[]={};
 	};
@@ -31,37 +31,12 @@ class CfgFunctions {
 
 // Inherit Ctrls
 class ctrlDefault;
-
 class ctrlDefaultText;
-class ctrlStatic;
-class ctrlStaticBackground;
-class ctrlStaticFooter;
-class ctrlStaticFrame;
-class ctrlStaticOverlay;
-class ctrlStaticTitle;
-class ctrlStaticPictureTile;
-class ctrlStaticBackgroundDisableTiles;
-class ctrlEdit;
-class ctrlCombo;
-
 class ctrlDefaultButton;
 class ctrlButton;
-class ctrlButtonCancel;
-class ctrlButtonClose;
 class ctrlButtonPictureKeepAspect;
-
-class ctrlControlsGroup;
-class ctrlControlsGroupNoScrollbars;
-
-class ctrlXSliderV;
-class ctrlXSliderH;
-
 class ctrlMenu;
 class ctrlMenuStrip;
-
-#include "\a3\3den\ui\macros.inc"
-#include "_defines.inc"
-#include "display.cpp"
 
 // Add button to 3den toolbar
 class Display3DEN {
@@ -73,7 +48,7 @@ class Display3DEN {
 				};
 				class CAU_colorPicker {
 					text="$STR_CAU_ColorPicker_Title";
-					action="['openDisplay',_this] call CAU_colorPicker_fnc_system";
+					action="_this call CAU_colorPicker_fnc_system";
 					picture="\cau\colorpicker\icon.paa";
 				};
 			};
@@ -99,7 +74,7 @@ class RscDebugConsole: RscControlsGroupNoScrollbars {
 			colorBackgroundActive[]={0,0,0,0};
 			colorFocused[]={0,0,0,0};
 			colorBackgroundDisabled[]={0,0,0,0};
-			onButtonClick="['openDisplay',_this] call CAU_colorPicker_fnc_system";
+			onButtonClick="_this call CAU_colorPicker_fnc_system";
 
 			// get from title ctrl incase some mod moves it
 			x="getNumber(configFile >> 'RscDebugConsole' >> 'controls' >> 'Title' >> 'w') - (1.1 * (((safezoneW / safezoneH) min 1.2) / 40))";

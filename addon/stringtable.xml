@@ -6,30 +6,9 @@
 			<English>Color Picker</English>
 			<German>Farbwähler</German>
 		</Key>
-		<Key ID="STR_CAU_ColorPicker_Mode_RGBA1">
-			<Original>RGBA 0-1 (Arma Format)</Original>
-			<English>RGBA 0-1 (Arma Format)</English>
-			<German>RGBA 0-1 (Arma Format)</German>
-		</Key>
-		<Key ID="STR_CAU_ColorPicker_Mode_RGBA255">
-			<Original>RGBA 0-255</Original>
-			<English>RGBA 0-255</English>
-			<German>RGBA 0-255</German>
-		</Key>
-		<Key ID="STR_CAU_ColorPicker_Mode_RRGGBB">
-			<Original>#RRGGBB</Original>
-			<English>#RRGGBB</English>
-			<German>#RRGGBB</German>
-		</Key>
-		<Key ID="STR_CAU_ColorPicker_Mode_AARRGGBB">
-			<Original>#AARRGGBB</Original>
-			<English>#AARRGGBB</English>
-			<German>#AARRGGBB</German>
-		</Key>
-		<Key ID="STR_CAU_ColorPicker_Mode_HEX">
-			<Original>Hex #RRGGBBAA</Original>
-			<English>Hex #RRGGBBAA</English>
-			<German>Hex #RRGGBBAA</German>
+		<Key ID="STR_CAU_ColorPicker_Selected">
+			<Original>Selected color info</Original>
+			<English>Selected color info</English>
 		</Key>
 	</Package>
 </Project>
